@@ -49,14 +49,14 @@ class ValidateIpController implements ContainerInjectableInterface
             }
         }
 
-        $page->add("validate-ip/index", [
+        $page->add("bjos/validate-ip/index", [
             "valid" => $valid,
             "ip" => $ipAdr,
             "type" => $type,
             "host" => $host
         ]);
 
-        $page->add("validate-ip/ip-json");
+        $page->add("bjos/validate-ip/ip-json");
 
         return $page->render([
             "title" => $title

@@ -20,7 +20,7 @@ class ApiController implements ContainerInjectableInterface
         $page = $this->di->get("page");
         $geo = $this->di->get("geolocation");
         $userIp = $geo->getUserIp();
-        $page->add("api/allapi", [
+        $page->add("bjos/api/allapi", [
             "userIp" => $userIp
         ]);
         return $page->render([

@@ -85,12 +85,12 @@ class WeatherController implements ContainerInjectableInterface
             "valid" => $valid
         ];
 
-        $page->add("weather/index", $data);
+        $page->add("bjos/weather/index", $data);
 
-        $page->add("geolocation/geomap", [
+        $page->add("bjos/geolocation/geomap", [
             "location" => $location
         ]);
-        $page->add("weather/table", [
+        $page->add("bjos/weather/table", [
             "location" => $location,
             "type" => $type,
             "forecast" => $forecast,

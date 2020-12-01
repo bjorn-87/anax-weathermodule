@@ -74,13 +74,13 @@ class GeoLocationController implements ContainerInjectableInterface
             "location" => $location
         ];
 
-        $page->add("geolocation/index", $data);
+        $page->add("bjos/geolocation/index", $data);
 
-        $page->add("geolocation/geomap", [
+        $page->add("bjos/geolocation/geomap", [
             "location" => $location
         ]);
 
-        $page->add("geolocation/geoapi", [
+        $page->add("bjos/geolocation/geoapi", [
             "userIp" => $userIp
         ]);
 
