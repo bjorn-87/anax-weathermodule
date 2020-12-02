@@ -1,5 +1,15 @@
 Anax weather module (bjos19/anax-weathermodule)
 =================================================
+# Badges
+Travis-CI  
+[![Build Status](https://travis-ci.com/bjorn-87/anax-weathermodule.svg?branch=master)](https://travis-ci.com/bjorn-87/anax-weathermodule)  
+CircleCI  
+[![<ORG_NAME>](https://circleci.com/gh/bjorn-87/anax-weathermodule.svg?style=svg)](https://app.circleci.com/pipelines/github/bjorn-87/anax-weathermodule)  
+Scrutinzer  
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/?branch=master)  
+[![Code Coverage](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/?branch=master)  
+[![Build Status](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/build-status/master)  
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)  
 
 # Installing
 
