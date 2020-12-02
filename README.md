@@ -13,13 +13,17 @@ Scrutinzer
 
 # Installing
 
+This module is available on [packagist](https://packagist.org/packages/bjos19/anax-weathermodule)
+
 ## Step 1 install the module
 
 ### install using composer
 `composer require bjos19/anax-weathermodule`
 
 ## Step 2 Copy the configuration files and other necessary folders.
-Stand in the root of your Anax repo and copy all files:  
+
+You can copy all the files separately from `vendor/bjos19/anax-weathermodule` or
+stand in the root of your Anax repo and copy all files with the following commands:  
 
 ```
 rsync -av vendor/bjos19/anax-weathermodule/config ./
