@@ -2,7 +2,7 @@
     "name": "bjos19/anax-weathermodule",
     "type": "library",
     "description": "Anax weather module",
-    "keywords": ["Anax", "framework", "weather"],
+    "keywords": ["Anax", "framework", "weather", "module"],
     "homepage": "https://github.com/bjorn-87/anax-weathermodule",
     "license": "MIT",
     "authors": [
@@ -22,11 +22,11 @@
     "minimum-stability": "beta",
     "prefer-stable": true,
     "require": {
-        "php": "^7.2",
-        "anax/commons": "^2.0.14"
+        "php": "^7.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^7",
-        "anax/anax": "^2.0.17"
+        "anax/anax": "^2.0.17",
+        "anax/commons": "^2.0.14"
     }
 }

@@ -1,13 +1,24 @@
 Anax weather module (bjos19/anax-weathermodule)
 =================================================
 
-# Copy the configuration files and other necessary folders.
-`rsync -av vendor/bjos19/anax-weathermodule/config ./`
-`rsync -av vendor/bjos19/anax-weathermodule/src ./`
-`rsync -av vendor/bjos19/anax-weathermodule/view ./`
-`rsync -av vendor/bjos19/anax-weathermodule/test ./`
+# Installing
 
-# Add namespace
+## Step 1 install the module
+
+### install using composer
+`composer require bjos19/anax-weathermodule`
+
+## Step 2 Copy the configuration files and other necessary folders.
+Stand in the root of your Anax repo and copy all files:  
+
+```
+rsync -av vendor/bjos19/anax-weathermodule/config ./
+rsync -av vendor/bjos19/anax-weathermodule/src ./
+rsync -av vendor/bjos19/anax-weathermodule/view ./
+rsync -av vendor/bjos19/anax-weathermodule/test ./
+```
+
+## Step 3 Add namespace
 Add namespace `Bjos` to `composer.json` and run command `composer dump-autoload`.
 ```
 "autoload": {
@@ -21,7 +32,7 @@ Add namespace `Bjos` to `composer.json` and run command `composer dump-autoload`
 # Test
 Run command `make test` to check that the code validates.
 
-# To be able to use the module properly you have to enter 2 api-keys
+# To be able to use the module properly you have to add 2 api-keys
 
 ## Add api key from [ipstack](https://ipstack.com/)
 Create file `/config/api_ipstack.php` and copy the code below or rename the file `/config/api_ipstack_sample.php`.  
