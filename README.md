@@ -10,6 +10,11 @@ Scrutinzer
 [![Code Coverage](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/?branch=master)  
 [![Build Status](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/build-status/master)  
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/bjorn-87/anax-weathermodule/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)  
+Codeclimate  
+[![Maintainability](https://api.codeclimate.com/v1/badges/87d0421f26144a9ebaf8/maintainability)](https://codeclimate.com/github/bjorn-87/anax-weathermodule/maintainability)  
+SymfonyInsight  
+[![SymfonyInsight](https://insight.symfony.com/projects/6ff96c9b-91af-479a-b1ec-6cb818143085/mini.svg)](https://insight.symfony.com/projects/6ff96c9b-91af-479a-b1ec-6cb818143085)  
+
 
 # Installing
 
